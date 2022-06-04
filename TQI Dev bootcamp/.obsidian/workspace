@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Estudos HTML/Infos HTML.md",
+            "file": "Estudos HTML e CSS3/Infos CSS3.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Estudos HTML/Infos HTML.md",
+                "file": "Estudos HTML e CSS3/Infos CSS3.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,7 +89,8 @@
   },
   "active": "40de8b42743bb5f0",
   "lastOpenFiles": [
-    "Estudos HTML/Infos HTML.md",
+    "Estudos HTML e CSS3/Infos CSS3.md",
+    "Estudos HTML e CSS3/Infos HTML.md",
     "gitzada/GIT NA PRATICA MENOZADA.md",
     "gitzada/COMO O GIT FUNCIONA.md",
     "gitzada/Estudo Git.md",
@@ -97,7 +98,6 @@
     "Pensamento computacional/Estudos.md",
     "Pensamento computacional/Paradigmas da programação.md",
     "Pensamento computacional/Design de algoritmos.md",
-    "Pensamento computacional/Abstração.md",
-    "Pensamento computacional/Reconhecimento de padrões.md"
+    "Pensamento computacional/Abstração.md"
   ]
 }
