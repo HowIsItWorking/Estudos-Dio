@@ -1,0 +1,216 @@
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+1p&display=swap');
+
+body{
+    font-family: helvetica;
+    background: linear-gradient(-45deg, #F7AEF8, #B388EB, #8093F1, #484A47);
+    background-size: 400% 400%;
+    animation: backgroundTransition 8s ease-in-out infinite;
+}
+
+
+.checkbox, .menu-wrapper, .checbox-wrapper{
+    padding: 0;
+    margin: auto;
+    margin-right: 10px;
+    box-sizing: border-box;
+}
+.menu-wrapper{
+    filter: invert();
+    opacity: 0.5;
+    width: 100%;
+    height: 80px;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+.checkbox{
+    height: 100px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    cursor: pointer;
+}
+
+.checkbox .trace {
+    width: 90px;
+    height: 9px;
+    background-color: white;
+    position: absolute;
+    border-radius: 4px;
+    transition: 0.3s ease-in-out;
+}
+
+.checkbox .trace:nth-child(1){
+    top: 26px;
+    transform: rotate();
+}
+.checkbox .trace:nth-child(2){
+    top: 46px;
+    transform: rotate();
+}
+.checkbox .trace:nth-child(3){
+    top: 66px;
+    transform: rotate();
+}
+
+#toggle{
+    display: none;
+
+}
+
+#toggle:checked + .checkbox .trace:nth-child(1){
+    transform: rotate(225deg);
+    top: 47px;
+}
+#toggle:checked + .checkbox .trace:nth-child(2){
+    transform: translateX(-100px);
+    width: 30px;
+    visibility: hidden;
+    opacity: 0;
+}
+
+#toggle:checked + .checkbox .trace:nth-child(3){
+    transform: rotate(-225deg);
+    top: 47px;
+}
+
+
+.content-wrapper{
+    margin-top: 0;
+    font-family: "M PLUS 1p", sans-serif;
+    height: min-content;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-wrapper h1 {
+    font-family: Helvetica, sans-serif;
+    font-size: 48px;
+    font-weight: bolder;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+}
+
+.content-wrapper h2{
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+
+.social-media{
+    margin-top: 1rem;
+    display: flex;
+}
+
+.content-wrapper a{
+    text-decoration: none;
+    counter-reset: #fff;
+    font-size: 24px;
+    padding: 1rem 4rem;
+    border: 1px solid #fff;
+    min-width: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: .5s cubic-bezier(0.55, 0.025, 0.675, 0.97);
+
+}
+
+.content-wrapper a:hover{
+    color: #484A47;
+    background-color: white;
+}
+
+@keyframes backgroundTransition{
+    0%{
+        background-position: 0% 80%;
+    }
+    50%{
+        background-position: 80% 100%;
+    }
+    100%{
+        background-position: 0% 90%;
+    }
+}
+
+.container{
+    width: 100%;
+    height: min-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    height: 400px;
+    width: 200%;
+    background-image: url("../Site\ Pessoal/img-header.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    filter: grayscale(0.5);
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+    margin-top: 22px;
+}
+
+.card-wrapper{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    mix-blend-mode: difference;
+}
+
+.card-wrapper::before{
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    display: block;
+    border: 1px solid white;
+    opacity: 0;
+    transition: 0.3s;
+}
+
+.card-wrapper h2 {
+    font-size: 48px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    margin: 0;
+    transition: 0.3s;
+}
+
+.card-wrapper p{
+    font-size: 0;
+    visibility: hidden;
+    font-weight: bold;
+    opacity: 0;
+    text-transform: uppercase;
+    transition: 0.3s;
+}
+
+.card:hover{
+    filter: unset;
+}
+
+.card:hover >.card-wrapper::before{
+    height: 300px;
+    width: 500px;
+    opacity: 1;
+}
+
+.card:hover >.card-wrapper p {
+    opacity: 1;
+    visibility: visible;
+    font-size: 14px;
+}
