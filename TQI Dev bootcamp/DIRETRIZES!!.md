@@ -1,0 +1,25 @@
+# DIRETRIZES DA CODIFICAÇÃO
+
+- Legibilidade
+	- Facilidade de leitura
+	- Compreensão
+	- Ortogonalidade
+	- Definição adequada das estruturas
+- Redigibilidade
+	- Pode conflitar com a legibilidade
+	- Ortogonalidade
+	- Simplicidade de escrita
+	- Suporte à abstração
+	- Reuso do código
+	- Expressividade
+- Confiabilidade
+	- Verificação de tipos
+	- Trata Exceções
+	- Uso de ponteiros
+	- Compatibilidade entre compiladores
+- Custo
+	- Treinamento
+	- Codificação
+	- Compilação
+	- Execução
+	- Infra-estrutura

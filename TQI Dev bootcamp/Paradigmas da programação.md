@@ -1,0 +1,21 @@
+- Orientada a objeto
+	- atributos : Qualidades, Adjetivos, Caracteristicas, Dados.
+	- metodos : possiveis ações, comportamentos
+	- estados : atos
+	- pilares:
+		- herança
+			- classe filha herda as caracteristicas de uma classe mãe, mas pode ter seus proprios metodos e atributos.
+		- encapsulamento
+		- polimorfismo
+		- abstração
+		- 
+- Estruturado
+	- sequencia
+	- decisão
+	- iteração
+	- problemas simples e diretos
+	- aprender programação
+- Procedural
+- Funcional
+- Computação distribuida
+- logico

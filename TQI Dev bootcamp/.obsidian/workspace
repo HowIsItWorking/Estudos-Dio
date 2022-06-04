@@ -1,0 +1,102 @@
+{
+  "main": {
+    "id": "ff2c5966e5f59210",
+    "type": "split",
+    "children": [
+      {
+        "id": "40de8b42743bb5f0",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "gitzada/GIT NA PRATICA MENOZADA.md",
+            "mode": "source",
+            "source": false
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "e1e60a64bd2927a5",
+    "type": "split",
+    "children": [
+      {
+        "id": "5b16eed3cacf1949",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "266191b435bcad4c",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "9cb0c413db35ad54",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "0938bfedcd7b607a",
+    "type": "split",
+    "children": [
+      {
+        "id": "816f7a6115563dca",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ab5b81b9bef61f3b",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "gitzada/GIT NA PRATICA MENOZADA.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "active": "40de8b42743bb5f0",
+  "lastOpenFiles": [
+    "gitzada/GIT NA PRATICA MENOZADA.md",
+    "gitzada/COMO O GIT FUNCIONA.md",
+    "gitzada/Estudo Git.md",
+    "DIRETRIZES!!.md",
+    "Pensamento computacional/Estudos.md",
+    "Paradigmas da programação.md",
+    "Pensamento computacional/Design de algoritmos.md",
+    "Pensamento computacional/Abstração.md",
+    "Pensamento computacional/Reconhecimento de padrões.md",
+    "Pensamento computacional/Decomposição.md"
+  ]
+}
