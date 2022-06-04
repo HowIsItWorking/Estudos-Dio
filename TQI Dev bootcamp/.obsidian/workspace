@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "gitzada/GIT NA PRATICA MENOZADA.md",
+            "file": "Estudos HTML/Infos HTML.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "gitzada/GIT NA PRATICA MENOZADA.md",
+                "file": "Estudos HTML/Infos HTML.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -84,19 +84,20 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "active": "40de8b42743bb5f0",
   "lastOpenFiles": [
+    "Estudos HTML/Infos HTML.md",
     "gitzada/GIT NA PRATICA MENOZADA.md",
     "gitzada/COMO O GIT FUNCIONA.md",
     "gitzada/Estudo Git.md",
-    "DIRETRIZES!!.md",
+    "Pensamento computacional/DIRETRIZES!!.md",
     "Pensamento computacional/Estudos.md",
-    "Paradigmas da programação.md",
+    "Pensamento computacional/Paradigmas da programação.md",
     "Pensamento computacional/Design de algoritmos.md",
     "Pensamento computacional/Abstração.md",
-    "Pensamento computacional/Reconhecimento de padrões.md",
-    "Pensamento computacional/Decomposição.md"
+    "Pensamento computacional/Reconhecimento de padrões.md"
   ]
 }
