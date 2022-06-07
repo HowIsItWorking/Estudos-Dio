@@ -1,0 +1,56 @@
+body{
+  background-color: whitesmoke;
+  color: #9999;
+  font-family: Helvetica, sans-serif;
+}
+
+h1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+}
+
+#input {
+  width: 25%;
+  margin: 0 auto;
+  flex-direction: row;
+  display: inline-block;
+  align-items: center;
+}
+
+#btnSend {
+  margin: 0 2rem;
+  position: absolute;
+  flex-direction: row;
+  display: inline-flex;
+  background-color: lightcoral;
+  color: lemonchiffon;
+  border-radius: 4px;
+
+}
+
+#item-checkbox{
+  display: inline-block;
+  flex-direction: row;
+  width: 20px;
+  height: 20px;
+  margin:5px;
+}
+
+.texto-item{
+  margin: 0;
+  display: inline-block;
+  flex-direction: row;
+  font-weight: bolder;
+}
+
+.item-lista{
+  margin: 0;
+  padding: 0;
+}
+
+#item-checkbox:checked > .texto-item{
+  text-decoration: line-through;
+  color: lightgreen;
+}
