@@ -4,6 +4,13 @@ body{
   font-family: Helvetica, sans-serif;
 }
 
+header{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 h1 {
   display: flex;
   align-items: center;
@@ -21,7 +28,6 @@ h1 {
 
 #btnSend {
   margin: 0 2rem;
-  position: absolute;
   flex-direction: row;
   display: inline-flex;
   background-color: lightcoral;
@@ -46,6 +52,9 @@ h1 {
 }
 
 .item-lista{
+  display: flex;
+  justify-content: center;
+  align-items: center;
   margin: 0;
   padding: 0;
 }
