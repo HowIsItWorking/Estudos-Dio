@@ -76,19 +76,19 @@ function boardCheck() {
       cardsFinished = cardsFinished + 1;
     }
   });
-  console.log(cardsFinished);
   if (cardsFinished === cards.length) finishGame();
 }
 
 function finishGame() {
   winText.style.visibility = "visible";
-  resetButton.style.visibility = "visible";
+  resetButton.innerHTML = "play again";
   bestScoreSetter();
 }
 
 resetButton.addEventListener("click", resetGame);
 
 function resetGame() {
+  resetButton.innerHTML = "reset";
   winText.style.visibility = "hidden";
 
   wrongMoves.innerHTML = 0;

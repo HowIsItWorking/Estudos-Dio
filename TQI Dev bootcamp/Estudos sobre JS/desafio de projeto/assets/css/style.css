@@ -25,6 +25,10 @@ body{
   letter-spacing: 2px;
 }
 
+.scoreboard h2 {
+  font-size: 28pt;
+}
+
 .scoreboard p{
   font-size: 48pt;
 }
