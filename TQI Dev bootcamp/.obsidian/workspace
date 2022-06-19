@@ -7,11 +7,9 @@
         "id": "40de8b42743bb5f0",
         "type": "leaf",
         "state": {
-          "type": "markdown",
+          "type": "image",
           "state": {
-            "file": "Estudos sobre JS/Infos de JS.md",
-            "mode": "source",
-            "source": false
+            "file": "imagens obsidian/Pasted image 20220609222513.png"
           }
         }
       }
@@ -69,7 +67,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Estudos sobre JS/Infos de JS.md",
+                "file": "imagens obsidian/Pasted image 20220609222513.png",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,6 +87,8 @@
   },
   "active": "40de8b42743bb5f0",
   "lastOpenFiles": [
+    "imagens obsidian/Pasted image 20220609222513.png",
+    "imagens obsidian/Pasted image 20220530203944.png",
     "Estudos sobre JS/Infos de JS.md",
     "Estudos HTML e CSS3/Infos CSS3.md",
     "Estudos HTML e CSS3/Infos HTML.md",
@@ -96,8 +96,6 @@
     "gitzada/COMO O GIT FUNCIONA.md",
     "gitzada/Estudo Git.md",
     "Pensamento computacional/DIRETRIZES!!.md",
-    "Pensamento computacional/Estudos.md",
-    "Pensamento computacional/Paradigmas da programação.md",
-    "Pensamento computacional/Design de algoritmos.md"
+    "Pensamento computacional/Estudos.md"
   ]
 }
