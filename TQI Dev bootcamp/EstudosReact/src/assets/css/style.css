@@ -1,0 +1,26 @@
+*{
+  margin: 1rem;
+  padding: 0;
+}
+
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  background-color: lightslategray;
+}
+
+#root {
+  justify-content: center;
+  text-align: center;
+}
+
+li {
+  text-decoration: underline;
+  list-style-type:none;
+  text-align: right;
+  padding: 0.333rem;
+}
+
+#historico {
+  display: none;
+}
